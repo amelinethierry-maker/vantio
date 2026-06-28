@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(node --version)",
+      "PowerShell(npm --version)",
+      "Bash(npm --version)",
+      "Bash(npm install *)",
+      "mcp__374a03a7-1992-4b52-8062-3ceadc4c5d33__list_teams",
+      "mcp__374a03a7-1992-4b52-8062-3ceadc4c5d33__list_projects",
+      "mcp__374a03a7-1992-4b52-8062-3ceadc4c5d33__list_deployments"
+    ]
+  }
+}
