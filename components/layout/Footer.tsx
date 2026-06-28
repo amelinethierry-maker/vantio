@@ -1,6 +1,5 @@
 import { navigation } from "@/config/navigation";
 import { siteConfig } from "@/config/site";
-import { Linkedin } from "lucide-react";
 import Link from "next/link";
 
 export function Footer() {
@@ -18,17 +17,6 @@ export function Footer() {
             <p className="mt-3 text-sm leading-relaxed text-neutral-500 max-w-xs">
               {siteConfig.tagline}
             </p>
-            <div className="mt-4 flex items-center gap-3">
-              <a
-                href={siteConfig.social.linkedin}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-neutral-400 hover:text-brand-600 transition-colors"
-                aria-label="LinkedIn"
-              >
-                <Linkedin className="h-5 w-5" aria-hidden="true" />
-              </a>
-            </div>
           </div>
 
           {/* Pages */}

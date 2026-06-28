@@ -1,25 +1,25 @@
 export const siteConfig = {
-  name: "Accompagnement Commercial",
+  name: "Vantio — Coaching Commercial pour TPE",
   tagline: "Des méthodes commerciales qui fonctionnent sur le terrain",
   description:
-    "Accompagnement commercial sur mesure pour TPE et auto-entrepreneurs. Prospection, organisation, scripts, CRM. Pas de théorie — des méthodes testées en conditions réelles.",
+    "Vantio accompagne les TPE et auto-entrepreneurs pour développer leurs ventes. Prospection, organisation commerciale, scripts, CRM. Pas de théorie — des méthodes testées en conditions réelles.",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://vantio.fr",
   author: {
-    name: "Votre Nom",
+    name: "Vantio",
     title: "Expert en développement commercial",
-    email: "contact@votre-domaine.fr",
-    phone: "+33 6 00 00 00 00",
-    linkedin: "https://linkedin.com/in/votre-profil",
+    email: "contact@vantio.fr",
+    phone: "06 52 20 98 83",
+    linkedin: "",
     location: "France (visioconférence)",
   },
-  calendly: process.env.NEXT_PUBLIC_CALENDLY_URL ?? "https://calendly.com",
+  calendly: process.env.NEXT_PUBLIC_CALENDLY_URL ?? "",
   social: {
-    linkedin: "https://linkedin.com/in/votre-profil",
+    linkedin: "",
   },
   openGraph: {
     type: "website",
     locale: "fr_FR",
-    siteName: "Accompagnement Commercial",
+    siteName: "Vantio — Coaching Commercial pour TPE",
   },
   keywords: [
     "accompagnement commercial",
