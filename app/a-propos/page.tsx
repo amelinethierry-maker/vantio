@@ -1,45 +1,49 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Breadcrumb } from "@/components/ui/Breadcrumb";
 import { CTA } from "@/components/sections/CTA";
 import { siteConfig } from "@/config/site";
 import { CheckCircle } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "À propos",
-  description: `Découvrez la philosophie et l'expérience derrière ${siteConfig.name}. Pas de théorie, pas de recettes miracles — uniquement des méthodes commerciales testées sur le terrain.`,
+  title: "À propos — Vantio",
+  description:
+    "22 ans d'expérience commerciale terrain, encore en activité. J'accompagne les TPE, artisans et auto-entrepreneurs par passion, avec des méthodes sur mesure adaptées à chaque profil.",
   alternates: { canonical: "/a-propos" },
 };
 
 const values = [
   {
-    title: "La clarté avant tout",
+    title: "Sur mesure, pas en kit",
     description:
-      "Je ne vous vendrai jamais quelque chose que vous n'avez pas besoin. Le diagnostic est honnête, même si la réponse n'est pas celle que vous espériez.",
+      "Nous sommes tous différents. La seule vraie méthode commerciale est celle qui est en cohérence avec votre personnalité, votre secteur et votre façon de travailler.",
   },
   {
     title: "Le terrain, pas la théorie",
     description:
-      "Toutes les méthodes proposées ont été testées en conditions réelles. Ce qui ne fonctionne pas disparaît du programme.",
+      "22 ans de vente en conditions réelles, encore en poste aujourd'hui. Ce que je vous propose, je le pratique moi-même. Ce qui ne fonctionne pas, je l'abandonne.",
   },
   {
-    title: "Le résultat, pas le processus",
+    title: "La clarté avant tout",
     description:
-      "L'objectif n'est pas de vous accompagner indéfiniment. C'est de vous rendre autonome le plus vite possible.",
+      "Un diagnostic honnête, même si la réponse n'est pas celle que vous espériez. Je ne vous vendrai jamais un accompagnement dont vous n'avez pas besoin.",
   },
   {
-    title: "La simplicité plutôt que la complexité",
+    title: "La passion comme moteur",
     description:
-      "Les meilleures méthodes commerciales sont souvent les plus simples. Si c'est trop compliqué à mettre en place, ça ne sera pas mis en place.",
+      "J'accompagne les TPE et indépendants par conviction, pas par obligation. Voir quelqu'un reprendre confiance dans sa démarche commerciale — c'est ça qui me motive.",
   },
 ];
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Person",
-  name: siteConfig.author.name,
-  jobTitle: siteConfig.author.title,
+  name: "Vantio",
+  jobTitle: "Expert en développement commercial",
+  description:
+    "22 ans d'expérience commerciale terrain. Accompagnement sur mesure des TPE, artisans et auto-entrepreneurs.",
   url: `${siteConfig.url}/a-propos`,
-  sameAs: [siteConfig.social.linkedin],
+  image: `${siteConfig.url}/photo-profil.jpg`,
 };
 
 export default function AboutPage() {
@@ -61,49 +65,76 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:items-start">
             <div>
               <h1 className="text-3xl font-bold tracking-tight text-neutral-950 sm:text-4xl">
-                Ce site n'existe pas pour parler de moi.
+                22 ans sur le terrain.
                 <br />
-                <span className="text-brand-600">Il existe pour résoudre vos problèmes.</span>
+                <span className="text-brand-600">Toujours en activité.</span>
               </h1>
               <div className="mt-6 space-y-4 text-neutral-600 leading-relaxed">
                 <p>
-                  J'accompagne des indépendants, des artisans, des consultants et
-                  des dirigeants de TPE depuis plusieurs années. Dans des dizaines
-                  de secteurs différents. Avec des profils très variés.
+                  Je suis commercial depuis 22 ans, actuellement en poste dans un grand groupe.
+                  Ce n'est pas un CV — c'est une réalité quotidienne. Je vis la vente,
+                  les objections, les cycles longs et les doutes, chaque jour.
                 </p>
                 <p>
-                  Ce que j'ai observé ? La grande majorité des problèmes
-                  commerciaux ne viennent pas d'un manque de talent ou de
-                  motivation. Ils viennent d'un manque de méthode, d'organisation
-                  et d'outils adaptés.
+                  J'accompagne les TPE, artisans et auto-entrepreneurs par passion.
+                  Pas pour en vivre — pour partager ce que 22 ans de terrain m'ont appris,
+                  et que personne ne m'a jamais enseigné dans un livre.
                 </p>
                 <p>
-                  J'ai construit cet accompagnement en partant d'une obsession
-                  simple : qu'est-ce qui fonctionne réellement, en conditions
-                  réelles, pour des gens qui n'ont pas une équipe commerciale
-                  derrière eux ?
+                  Ce que j'ai compris au fil du temps ? Il n'existe pas de méthode universelle.
+                  Chaque personne est différente. La seule approche qui fonctionne vraiment,
+                  c'est celle qui est en cohérence avec qui vous êtes — votre personnalité,
+                  votre secteur, votre façon naturelle d'entrer en contact avec les autres.
                 </p>
                 <p className="font-medium text-neutral-800">
-                  Pas de théorie. Pas de recettes miracles. Seulement des méthodes
-                  qui ont fait leurs preuves sur le terrain.
+                  Pas de script copié-collé. Pas de formation générique.
+                  Un accompagnement construit pour vous, et uniquement pour vous.
                 </p>
               </div>
             </div>
 
-            {/* Photo placeholder */}
+            {/* Photo */}
             <div className="flex justify-center">
-              <div
-                className="h-80 w-64 rounded-2xl bg-neutral-100 flex items-center justify-center text-neutral-400 text-sm"
-                aria-label="Photo professionnelle à ajouter"
-              >
-                Photo à ajouter
-              </div>
+              <Image
+                src="/photo-profil.jpg"
+                alt="Expert commercial Vantio — 22 ans d'expérience terrain"
+                width={320}
+                height={400}
+                className="rounded-2xl object-cover shadow-medium"
+                priority
+              />
+            </div>
+          </div>
+        </section>
+
+        {/* Pourquoi les TPE */}
+        <section className="mt-20 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="rounded-2xl bg-brand-50 border border-brand-100 p-8 lg:p-12">
+            <h2 className="text-2xl font-bold text-neutral-950 mb-4">
+              Pourquoi les TPE et les indépendants ?
+            </h2>
+            <div className="space-y-4 text-neutral-600 leading-relaxed max-w-3xl">
+              <p>
+                Dans les grands groupes, il y a des équipes, des managers, des scripts validés,
+                des outils. Quand ça ne va pas, on peut s'appuyer sur quelqu'un.
+              </p>
+              <p>
+                L'artisan, le consultant, l'auto-entrepreneur — lui, il est seul face à son
+                téléphone, face à ses prospects, face à ses doutes. Personne ne lui a appris
+                à prospecter. Personne ne lui a dit comment gérer un non. Personne ne l'a
+                accompagné pour construire une routine commerciale.
+              </p>
+              <p className="font-medium text-neutral-800">
+                C'est exactement là que j'interviens. Pas pour transformer quelqu'un en
+                commercial qu'il n'est pas — mais pour lui donner les clés qui correspondent
+                à ce qu'il est déjà.
+              </p>
             </div>
           </div>
         </section>
 
         {/* Values */}
-        <section className="mt-20 bg-neutral-25 border-y border-neutral-200 py-16">
+        <section className="mt-20 bg-neutral-50 border-y border-neutral-200 py-16">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <h2 className="text-2xl font-bold text-neutral-950 mb-10">
               Ma philosophie de travail
