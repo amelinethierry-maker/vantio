@@ -4,6 +4,7 @@ import { cn } from "@/lib/utils";
 import { navigation } from "@/config/navigation";
 import { siteConfig } from "@/config/site";
 import { Menu, X } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -53,9 +54,14 @@ export function Navbar() {
           href="/"
           className="flex items-center gap-2 text-neutral-950 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 rounded-md"
         >
-          <span className="font-bold text-lg tracking-tight">
-            {siteConfig.name}
-          </span>
+          <Image
+            src="/logo_vantio.jpg"
+            alt={siteConfig.name}
+            width={120}
+            height={40}
+            className="h-10 w-auto object-contain"
+            priority
+          />
         </Link>
 
         {/* Desktop nav */}

@@ -47,6 +47,11 @@ export const metadata: Metadata = {
       "application/rss+xml": `${siteConfig.url}/feed.xml`,
     },
   },
+  icons: {
+    icon: "/favicon_vantio.jpg",
+    shortcut: "/favicon_vantio.jpg",
+    apple: "/favicon_vantio.jpg",
+  },
 };
 
 export const viewport: Viewport = {
