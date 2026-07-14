@@ -3,7 +3,7 @@ export const siteConfig = {
   tagline: "Des méthodes commerciales qui fonctionnent sur le terrain",
   description:
     "Vantio accompagne les TPE et auto-entrepreneurs pour développer leurs ventes. Prospection, organisation commerciale, scripts, CRM. Pas de théorie — des méthodes testées en conditions réelles.",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://vantio.fr",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.vantio.fr",
   author: {
     name: "Vantio",
     title: "Expert en développement commercial",
