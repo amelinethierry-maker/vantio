@@ -1,8 +1,9 @@
 export const siteConfig = {
   name: "Vantio — Coaching Commercial pour TPE",
+  shortName: "Vantio",
   tagline: "Des méthodes commerciales qui fonctionnent sur le terrain",
   description:
-    "Vantio accompagne les TPE et auto-entrepreneurs pour développer leurs ventes. Prospection, organisation commerciale, scripts, CRM. Pas de théorie — des méthodes testées en conditions réelles.",
+    "Vantio accompagne les TPE et auto-entrepreneurs pour développer leurs ventes : prospection, organisation commerciale, scripts, CRM.",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.vantio.fr",
   author: {
     name: "Vantio",
