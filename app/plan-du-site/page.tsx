@@ -20,6 +20,7 @@ export default function SitemapPage() {
         { href: "/", label: "Accueil" },
         { href: "/a-propos", label: "À propos" },
         { href: "/audit-gratuit", label: "Audit Commercial Gratuit" },
+        { href: "/outil-prospection", label: "Outil de prospection terrain" },
         { href: "/faq", label: "FAQ" },
         { href: "/contact", label: "Contact" },
       ],

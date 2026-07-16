@@ -12,6 +12,7 @@ export const navigation = {
       { label: "Accueil", href: "/" },
       { label: "À propos", href: "/a-propos" },
       { label: "Prestations", href: "/prestations" },
+      { label: "Outil de prospection", href: "/outil-prospection" },
       { label: "Audit gratuit", href: "/audit-gratuit" },
       { label: "Blog", href: "/blog" },
       { label: "FAQ", href: "/faq" },
