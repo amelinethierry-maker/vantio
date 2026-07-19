@@ -31,7 +31,7 @@ const values = [
   {
     title: "La passion comme moteur",
     description:
-      "J'accompagne les TPE et indépendants par conviction, pas par obligation. Voir quelqu'un reprendre confiance dans sa démarche commerciale — c'est ça qui me motive.",
+      "J'accompagne les TPE et indépendants par conviction, pas par obligation. Voir quelqu'un reprendre confiance dans sa démarche commerciale, c'est ça qui me motive.",
   },
 ];
 
@@ -72,18 +72,19 @@ export default function AboutPage() {
               <div className="mt-6 space-y-4 text-neutral-600 leading-relaxed">
                 <p>
                   Je suis commercial depuis 22 ans, actuellement en poste dans un grand groupe.
-                  Ce n'est pas un CV — c'est une réalité quotidienne. Je vis la vente,
-                  les objections, les cycles longs et les doutes, chaque jour.
+                  Ce n'est pas un CV, c'est une réalité quotidienne. Je vis la prospection,
+                  la négociation, les objections, les cycles longs et les doutes, chaque jour.
                 </p>
                 <p>
                   J'accompagne les TPE, artisans et auto-entrepreneurs par passion.
-                  Pas pour en vivre — pour partager ce que 22 ans de terrain m'ont appris,
+                  Pas pour en vivre, pour partager ce que 22 ans de terrain m'ont appris
+                  sur l'ensemble de la démarche commerciale, de la prospection à la vente,
                   et que personne ne m'a jamais enseigné dans un livre.
                 </p>
                 <p>
                   Ce que j'ai compris au fil du temps ? Il n'existe pas de méthode universelle.
-                  Chaque personne est différente. La seule approche qui fonctionne vraiment,
-                  c'est celle qui est en cohérence avec qui vous êtes — votre personnalité,
+                  Chaque personne est différente. La seule approche qui fonctionne vraiment
+                  est celle qui est en cohérence avec qui vous êtes : votre personnalité,
                   votre secteur, votre façon naturelle d'entrer en contact avec les autres.
                 </p>
                 <p className="font-medium text-neutral-800">
@@ -97,7 +98,7 @@ export default function AboutPage() {
             <div className="flex justify-center">
               <Image
                 src="/photo-profil.jpg"
-                alt="Expert commercial Vantio — 22 ans d'expérience terrain"
+                alt="Expert commercial Vantio, 22 ans d'expérience terrain"
                 width={320}
                 height={400}
                 className="rounded-2xl object-cover shadow-medium"
@@ -119,15 +120,15 @@ export default function AboutPage() {
                 des outils. Quand ça ne va pas, on peut s'appuyer sur quelqu'un.
               </p>
               <p>
-                L'artisan, le consultant, l'auto-entrepreneur — lui, il est seul face à son
-                téléphone, face à ses prospects, face à ses doutes. Personne ne lui a appris
-                à prospecter. Personne ne lui a dit comment gérer un non. Personne ne l'a
-                accompagné pour construire une routine commerciale.
+                L'artisan, le consultant, l'auto-entrepreneur, lui, est seul face à son
+                téléphone, face à ses prospects, face à ses négociations, face à ses doutes.
+                Personne ne lui a appris à prospecter. Personne ne lui a dit comment gérer
+                un non, défendre son prix ou relancer sans avoir l'impression de déranger.
               </p>
               <p className="font-medium text-neutral-800">
                 C'est exactement là que j'interviens. Pas pour transformer quelqu'un en
-                commercial qu'il n'est pas — mais pour lui donner les clés qui correspondent
-                à ce qu'il est déjà.
+                commercial qu'il n'est pas, mais pour lui donner les clés qui correspondent
+                à ce qu'il est déjà, sur l'ensemble de sa démarche commerciale.
               </p>
             </div>
           </div>
