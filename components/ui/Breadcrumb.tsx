@@ -1,6 +1,10 @@
+"use client";
+
 import { cn } from "@/lib/utils";
+import { siteConfig } from "@/config/site";
 import { ChevronRight, Home } from "lucide-react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 interface BreadcrumbItem {
   label: string;
@@ -13,6 +17,7 @@ interface BreadcrumbProps {
 }
 
 export function Breadcrumb({ items, className }: BreadcrumbProps) {
+  const pathname = usePathname();
   const allItems = [{ label: "Accueil", href: "/" }, ...items];
 
   return (
@@ -24,6 +29,7 @@ export function Breadcrumb({ items, className }: BreadcrumbProps) {
       >
         {allItems.map((item, index) => {
           const isLast = index === allItems.length - 1;
+          const absoluteUrl = `${siteConfig.url}${item.href ?? pathname}`;
           return (
             <li
               key={index}
@@ -53,6 +59,9 @@ export function Breadcrumb({ items, className }: BreadcrumbProps) {
                 >
                   {item.label}
                 </span>
+              )}
+              {(!item.href || isLast) && (
+                <meta itemProp="item" content={absoluteUrl} />
               )}
               <meta itemProp="position" content={String(index + 1)} />
             </li>
