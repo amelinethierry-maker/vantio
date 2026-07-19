@@ -19,7 +19,7 @@ export function Hero() {
           {/* Surtitre */}
           <div className="inline-flex items-center gap-2 rounded-full border border-brand-100 bg-brand-50 px-4 py-1.5 text-xs font-medium text-brand-700 mb-8">
             <span className="h-1.5 w-1.5 rounded-full bg-brand-500" aria-hidden="true" />
-            Accompagnement commercial pour TPE et auto-entrepreneurs
+            Accompagnement commercial pour TPE, artisans et auto-entrepreneurs
           </div>
 
           {/* Titre principal */}
@@ -27,15 +27,17 @@ export function Hero() {
             id="hero-heading"
             className="text-4xl font-bold tracking-tight text-neutral-950 sm:text-5xl lg:text-6xl"
           >
-            Arrêtez de prospecter dans le vide.{" "}
-            <span className="text-brand-600">Obtenez une méthode.</span>
+            Prospection, négociation, vente, relance.{" "}
+            <span className="text-brand-600">Reprenez le plaisir de vendre.</span>
           </h1>
 
           {/* Accroche */}
           <p className="mt-6 text-lg leading-relaxed text-neutral-600 max-w-2xl mx-auto">
-            Vous êtes commercial, artisan, consultant ou freelance. Vous passez
-            des heures à prospecter sans résultat. Il manque une méthode
-            structurée, pas de la motivation.
+            Que vous soyez artisan, consultant ou auto-entrepreneur, la partie
+            commerciale de votre métier reste l'une de vos nombreuses
+            casquettes — rarement la plus aimée. Je vous accompagne sur
+            l'ensemble de votre démarche commerciale pour qu'elle devienne
+            enfin naturelle.
           </p>
 
           {/* CTA */}

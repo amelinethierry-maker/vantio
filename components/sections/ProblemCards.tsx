@@ -4,40 +4,40 @@ import Link from "next/link";
 
 const problems = [
   {
+    text: "Je n'aime pas la partie commerciale de mon métier.",
+    href: "/prestations",
+  },
+  {
     text: "Je ne trouve pas de nouveaux clients.",
     href: "/prestations/prospection-commerciale",
   },
   {
-    text: "Je ne sais jamais quoi dire au téléphone.",
-    href: "/prestations/prospection-telephonique",
+    text: "Je cède sur mes prix dès qu'on négocie.",
+    href: "/prestations/negociation-vente",
   },
   {
-    text: "Je prospecte sans résultat.",
-    href: "/prestations/prospection-commerciale",
-  },
-  {
-    text: "Je manque d'organisation.",
-    href: "/prestations/organisation-commerciale",
-  },
-  {
-    text: "Je travaille au feeling.",
-    href: "/prestations/processus-commerciaux",
-  },
-  {
-    text: "Je n'ai pas de méthode.",
-    href: "/prestations/prospection-commerciale",
-  },
-  {
-    text: "Je n'utilise pas de CRM.",
-    href: "/prestations/mise-en-place-crm",
+    text: "Je bloque au moment de conclure une vente.",
+    href: "/prestations/negociation-vente",
   },
   {
     text: "Je n'arrive pas à relancer mes prospects.",
     href: "/prestations/scripts-commerciaux",
   },
   {
-    text: "Je perds des opportunités.",
+    text: "Je suis sur les réseaux sociaux mais ça ne m'apporte rien.",
+    href: "/prestations/reseaux-sociaux",
+  },
+  {
+    text: "Je manque d'organisation.",
     href: "/prestations/organisation-commerciale",
+  },
+  {
+    text: "Je n'utilise pas de CRM.",
+    href: "/prestations/mise-en-place-crm",
+  },
+  {
+    text: "Je travaille au feeling, sans méthode.",
+    href: "/prestations/processus-commerciaux",
   },
 ];
 

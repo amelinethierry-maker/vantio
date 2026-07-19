@@ -1,16 +1,15 @@
 import { ArrowRight } from "lucide-react";
 
 const outcomes = [
-  "Une méthode de prospection adaptée à votre activité",
-  "Des scripts d'appels et d'emails prêts à l'emploi",
+  "Une méthode commerciale adaptée à votre activité, de la prospection à la vente",
+  "Des techniques de négociation pour défendre vos prix sans perdre le client",
+  "Des scripts d'appels, d'emails et de messages prêts à l'emploi",
+  "Une stratégie de présence sur les réseaux sociaux qui vous ressemble",
+  "Un système de relance efficace, sans donner l'impression d'insister",
   "Un processus commercial documenté et reproductible",
-  "Un système de relance efficace",
   "Un CRM configuré et opérationnel",
-  "Des modèles réutilisables pour chaque situation",
-  "Une stratégie de prospection LinkedIn",
   "Une meilleure organisation de votre temps commercial",
-  "Des routines hebdomadaires pour maintenir votre activité",
-  "Une meilleure conversion de vos rendez-vous en clients",
+  "Plus de confiance et moins d'appréhension face à la vente",
 ];
 
 export function WhatYouGet() {

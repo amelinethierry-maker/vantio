@@ -270,6 +270,110 @@ export const services: Service[] = [
     ],
   },
   {
+    slug: "negociation-vente",
+    title: "Négociation & Vente",
+    shortTitle: "Négociation",
+    description:
+      "Défendre vos prix, gérer les objections et conclure sans céder à la pression du client — la partie qui suit la prospection, et qui fait souvent la différence sur votre chiffre d'affaires.",
+    hero: "Trouver un client, c'est une chose. Le convaincre au bon prix, c'en est une autre.",
+    problems: [
+      "Vous cédez sur vos prix dès que le client hésite",
+      "Vous ne savez pas comment répondre à \"c'est trop cher\"",
+      "Vous bloquez au moment de conclure et laissez la vente en suspens",
+      "Vous avez peur de perdre le client en défendant votre valeur",
+    ],
+    benefits: [
+      "Des techniques de négociation adaptées à votre activité",
+      "Des réponses concrètes aux objections de prix",
+      "Une méthode pour conclure sans mettre de pression malsaine",
+      "Plus de confiance pour défendre ce que vous valez",
+    ],
+    process: [
+      {
+        step: 1,
+        title: "Diagnostic",
+        description: "Identifier à quel moment vous perdez pied dans vos négociations actuelles.",
+      },
+      {
+        step: 2,
+        title: "Méthode",
+        description: "Construire une trame de négociation adaptée à votre activité et votre ton.",
+      },
+      {
+        step: 3,
+        title: "Mise en situation",
+        description: "S'entraîner sur des cas réels tirés de votre activité, objection par objection.",
+      },
+      {
+        step: 4,
+        title: "Application",
+        description: "Mettre en pratique sur vos négociations en cours et ajuster selon les résultats.",
+      },
+    ],
+    faq: [
+      {
+        question: "Est-ce que ça marche aussi pour de petits montants ?",
+        answer:
+          "Oui. Les mêmes principes s'appliquent qu'il s'agisse d'un devis à 200 € ou d'un contrat à 20 000 €. Ce qui compte, c'est la méthode, pas le montant.",
+      },
+    ],
+    keywords: [
+      "négociation commerciale",
+      "techniques de vente",
+      "closing vente",
+      "défendre ses prix",
+    ],
+  },
+  {
+    slug: "reseaux-sociaux",
+    title: "Réseaux Sociaux & Visibilité",
+    shortTitle: "Réseaux sociaux",
+    description:
+      "Construire une présence sur les réseaux sociaux qui attire des clients, sans y passer vos journées et sans dénaturer qui vous êtes.",
+    hero: "Être visible sur les réseaux sociaux ne veut pas dire y passer sa vie.",
+    problems: [
+      "Vous êtes présent sur les réseaux sociaux mais ça ne vous apporte rien",
+      "Vous ne savez pas quoi publier ni à quelle fréquence",
+      "Vous avez peur de paraître trop commercial ou pas assez professionnel",
+      "Vous voyez d'autres indépendants réussir sans comprendre comment",
+    ],
+    benefits: [
+      "Une stratégie de contenu réaliste, adaptée à votre temps disponible",
+      "Un ton qui vous ressemble, pas une posture artificielle",
+      "Une sélection des bons réseaux pour votre activité",
+      "Une présence qui génère des contacts, pas juste des vues",
+    ],
+    process: [
+      {
+        step: 1,
+        title: "Diagnostic",
+        description: "Analyser votre présence actuelle et identifier les réseaux pertinents pour votre activité.",
+      },
+      {
+        step: 2,
+        title: "Positionnement",
+        description: "Définir ce que vous voulez montrer et à qui, sans dénaturer votre personnalité.",
+      },
+      {
+        step: 3,
+        title: "Ligne éditoriale",
+        description: "Construire un calendrier de contenu simple et tenable dans la durée.",
+      },
+      {
+        step: 4,
+        title: "Routine",
+        description: "Mettre en place une routine réaliste de publication et d'interaction.",
+      },
+    ],
+    faq: [],
+    keywords: [
+      "réseaux sociaux TPE",
+      "visibilité réseaux sociaux",
+      "social selling",
+      "stratégie contenu indépendant",
+    ],
+  },
+  {
     slug: "prospection-linkedin",
     title: "Prospection LinkedIn",
     shortTitle: "LinkedIn",
