@@ -4,7 +4,7 @@ import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, "..");
-const logo = join(root, "public", "logo_vantio.jpg");
+const logo = join(root, "public", "logo_vantio2.png");
 const out = join(root, "public", "og-image.jpg");
 
 const W = 1200, H = 630;

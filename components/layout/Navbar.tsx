@@ -55,9 +55,9 @@ export function Navbar() {
           className="flex items-center gap-2 text-neutral-950 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 rounded-md"
         >
           <Image
-            src="/logo_vantio.jpg"
+            src="/logo_vantio2.png"
             alt={siteConfig.name}
-            width={120}
+            width={145}
             height={40}
             className="h-10 w-auto object-contain"
             priority
