@@ -8,7 +8,7 @@ import { CTA } from "@/components/sections/CTA";
 import { siteConfig } from "@/config/site";
 
 export const metadata: Metadata = {
-  title: `${siteConfig.name} — Accompagnement commercial pour TPE et auto-entrepreneurs`,
+  title: `${siteConfig.shortName} — Coaching commercial pour TPE et indépendants`,
   description: siteConfig.description,
   alternates: { canonical: "/" },
 };

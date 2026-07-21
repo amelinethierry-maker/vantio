@@ -1,0 +1,26 @@
+# Vantio
+
+> Vantio accompagne les TPE, artisans et auto-entrepreneurs sur l'ensemble de leur démarche commerciale : prospection, négociation, vente, relance, réseaux sociaux. L'objectif n'est pas seulement d'apporter une méthode, mais d'aider les indépendants à faire la paix avec la partie commerciale de leur métier.
+
+Vantio est porté par un commercial en activité depuis 22 ans, encore en poste dans un grand groupe, qui accompagne des TPE et indépendants par passion en parallèle de son activité principale. L'accompagnement est sur mesure, pas générique : chaque méthode est adaptée à la personnalité et au secteur de la personne accompagnée.
+
+## Prestations
+
+- [Audit Commercial](https://www.vantio.fr/prestations/audit-commercial) : diagnostic gratuit de la situation commerciale actuelle
+- [Prospection Commerciale](https://www.vantio.fr/prestations/prospection-commerciale) : méthode de prospection structurée et durable
+- [Négociation & Vente](https://www.vantio.fr/prestations/negociation-vente) : défendre ses prix, gérer les objections, conclure
+- [Organisation Commerciale](https://www.vantio.fr/prestations/organisation-commerciale) : structurer son activité commerciale
+- [Processus Commerciaux](https://www.vantio.fr/prestations/processus-commerciaux) : documenter et rendre reproductible son processus de vente
+- [Scripts Commerciaux](https://www.vantio.fr/prestations/scripts-commerciaux) : scripts d'appels, d'emails et de messages
+- [Réseaux Sociaux & Visibilité](https://www.vantio.fr/prestations/reseaux-sociaux) : présence commerciale sur les réseaux sociaux
+- [Prospection LinkedIn](https://www.vantio.fr/prestations/prospection-linkedin) : prospection directe sur LinkedIn
+- [Prospection Téléphonique](https://www.vantio.fr/prestations/prospection-telephonique) : structurer et réussir ses appels de prospection
+- [Emailing B2B](https://www.vantio.fr/prestations/emailing-b2b) : séquences d'emails de prospection
+- [Mise en Place CRM](https://www.vantio.fr/prestations/mise-en-place-crm) : choix et configuration d'un CRM adapté
+
+## Ressources
+
+- [Blog](https://www.vantio.fr/blog) : articles pratiques sur la prospection, la négociation, la vente et l'organisation commerciale, écrits à partir de l'expérience terrain
+- [À propos](https://www.vantio.fr/a-propos) : présentation du fondateur et de sa philosophie d'accompagnement
+- [Outil de prospection terrain](https://www.vantio.fr/outil-prospection) : application de prospection terrain conçue pour les commerciaux itinérants
+- [Contact](https://www.vantio.fr/contact)
